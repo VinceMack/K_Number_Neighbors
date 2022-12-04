@@ -1,0 +1,46 @@
+Testing Set - KNN with 1 num of neighbors
+Accuracy: 0.9963636363636363
+Sensitivity: 1.0
+F1 Score: 0.9959183673469388
+Specificity: 0.9934640522875817
+Log Loss: 0.12559555052694896 
+
+
+Testing Set - KNN with 2 num of neighbors
+Accuracy: 0.9963636363636363
+Sensitivity: 1.0
+F1 Score: 0.9959183673469388
+Specificity: 0.9934640522875817
+Log Loss: 0.12559555052694896 
+
+
+Testing Set - KNN with 10 num of neighbors
+Accuracy: 1.0
+Sensitivity: 1.0
+F1 Score: 1.0
+Specificity: 1.0
+Log Loss: 9.992007221626415e-16 
+
+
+Training Set - KNN with 1 num of neighbors
+Accuracy: 1.0
+Sensitivity: 1.0
+F1 Score: 1.0
+Specificity: 1.0
+Log Loss: 9.992007221626415e-16 
+
+
+Training Set - KNN with 2 num of neighbors
+Accuracy: 1.0
+Sensitivity: 1.0
+F1 Score: 1.0
+Specificity: 1.0
+Log Loss: 9.992007221626415e-16 
+
+
+Training Set - KNN with 10 num of neighbors
+Accuracy: 1.0
+Sensitivity: 1.0
+F1 Score: 1.0
+Specificity: 1.0
+Log Loss: 9.992007221626415e-16 
