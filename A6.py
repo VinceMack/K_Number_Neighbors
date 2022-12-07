@@ -40,24 +40,17 @@ def runKNN(numOfNeighbors, inputData, outputData):
     print("Specificity: ", end = '')
     print((tn)/(tn+fp))
     print("Log Loss: ", end = '')
-    print(log_loss(y_pred, outputData),"\n\n")
+    print(log_loss(y_pred, outputData),"\n")
 
 
 #printCVS()
-print("Testing Set - ", end = '')
+print("\n\033[4mTesting Set\n\033[0m", end = '')
 runKNN(1, X_test, y_test)
-
-print("Testing Set - ", end = '')
 runKNN(2, X_test, y_test)
-
-print("Testing Set - ", end = '')
 runKNN(10, X_test, y_test)
+print("\n")
 
-print("Training Set - ", end = '')
+print("\n\033[4mTraining Set\n\033[0m", end = '')
 runKNN(1, X_train, y_train)
-
-print("Training Set - ", end = '')
 runKNN(2, X_train, y_train)
-
-print("Training Set - ", end = '')
 runKNN(10, X_train, y_train)
